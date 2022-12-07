@@ -5,45 +5,47 @@
 
 int main(){
    
-    unsigned int x[200];
-    int y;
-    int z;
-    int w;
-    int j;
-    int i;
+    unsigned int vet[200];
+    int num;
+    int bin_to_dec;
+    int pos;
+    int count;
      
 
-    i=0;
-    while(i<200){
-        x[i] = 0;
-        i++;
+    count=0;
+    while(count<200){
+        vet[count] = 0;
+        count++;
     }
 
-    z = 0;
-    i = 0;
+    
+    count = 0;
 
     printf("Digite números entre 0 e 5000: \n");
-    
-    while(y != -1){
-        scanf("%d", &y);
-        j = y / 32;
-        if((y!=-1)&&(y>=0 && y<= 5000)){
-            x[j] = x[j] | (1 << (y-(32*j)));
-            if(y>i){
-            i = y;
+
+    while(num != -1){    //esse while verifica se o numero digitado é diferente de -1
+        scanf("%d", &num);    //fazendo e leitura dos dados digitados
+        pos = num / 32;
+        if((num!=-1)&&(num>=0 && num<= 5000)){
+            vet[pos] = vet[pos] | (1 << (num-(32*pos)));  //O operador OR inclusivo bit a bit compara cada bit do primeiro operando com o bit correspondente de seu segundo operando.
+            if(num > count){
+            count = num;
         }
        }
        
     }
-    y = 0;
-    w = 0;
+    num = 0;
+    bin_to_dec = 0;
+
+    // parte responsavel pela impreção
+
     printf("Números Digitados: \n");
-    while(y<=i){
-        if((x[w] >> (y-(32*w))) & 1){
-            printf("%d\n", y);
+    while(num <= count){
+        if((vet[bin_to_dec] >> (num-(32*bin_to_dec))) & 1){    //essa paret é responsavel por converter um numero binario para decimal
+            printf("%d\n", num);    //mostra o numero decimal resultado da converção feito na linha acima.
         }
-        y++;
-        w = y / 32;
+        num++;
+        bin_to_dec = num / 32;
     }
 
 
