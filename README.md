@@ -12,7 +12,23 @@
 
 <h1 align="center"> Como rodar a aplicação :arrow_forward: </h1>
 
+Clone o projeto no terminal:
 
-<h2>✔️ Técnicas e tecnologias utilizadas </h2>
+```
+git clone https://github.com/SamuelSilvaB/Trabalho_3.git
+```
+
+Em segida:
+```
+cd Trabalho_3
+```
+
+E por fim:
+```
+./trabalho_3
+```
+
+
+<h2 align="center">✔️ Técnicas e tecnologias utilizadas </h2>
 
 - ``C``
