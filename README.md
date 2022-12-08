@@ -9,8 +9,21 @@
 <h3> O programa lê números inteiros entre 0 e 5000 digitados pelo usuário e ao digitar -1, o programa deve imprimir todos os números digitados em ordem crescente e sem repetições. </h3>
 <br>
 
+<h3>:warning: É nescessario ter o Git instalado na sua máquina, caso já tenha avance para: </h3>
 
-<h1 align="center"> Como rodar a aplicação :arrow_forward: </h1>
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
+<h1 align="center">instalando o Git </h1>
+
+No terminal digite o seguinte comando:
+
+```
+sudo apt-get update sudo apt-get install git
+```
+  
+<h1 align="center">
+Como rodar a aplicação :arrow_forward:
+</h1>
 
 Clone o projeto no terminal:
 
@@ -29,6 +42,6 @@ E por fim:
 ```
 
 
-<h2 align="center">✔️ Técnicas e tecnologias utilizadas </h2>
+<h2 align="center">✔️ Tecnologia utilizada </h2>
 
 - ``C``
