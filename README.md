@@ -6,7 +6,7 @@
 
 <h1 align="center"> Problema </h1>
 
-<h3> O programa lê um números inteiros entre 0 e 5000 digitados pelo usuário e ao digitar -1, o programa deve imprimir todos os números digitados em ordem crescente e sem repetições. </h3>
+<h3> O programa lê números inteiros entre 0 e 5000 digitados pelo usuário e ao digitar -1, o programa deve imprimir todos os números digitados em ordem crescente e sem repetições. </h3>
 <br>
 
 
