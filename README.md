@@ -9,7 +9,7 @@
 <h3> O programa lê números inteiros entre 0 e 5000 digitados pelo usuário e ao digitar -1, o programa deve imprimir todos os números digitados em ordem crescente e sem repetições. </h3>
 <br>
 
-<h3>:warning: É nescessario ter o Git instalado na sua máquina, caso já tenha avance para: </h3>
+<h3>:warning: Para rodar a aplicação é nescessario ter o Git instalado na sua máquina, caso já tenha avance para: </h3>
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
